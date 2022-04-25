@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Kumbh_bold';
+    src: url('./images/KumbhSans-Bold.ttf');
+}
+
+
+*{
+    margin: 0;
+}
+html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background: linear-gradient(180deg, #FBDA61 0%, #FF5ACD 100%);
+    height: 100%;
+    width: 100%;
+}
+h1{
+    font-family: "Kumbh_bold";  
+}
+
+@media (max-width: 320px) {
+    .placecont{
+        display: flex;
+        justify-content: center;
+    }
+    .contenufaq{
+        background-color: #ffffff;
+        height: 65vh;
+        width: 85vw;
+        box-shadow: 0px 50px 50px -20px rgba(53, 18, 122, 0.497159);
+        border-radius: 23px;
+    }
+
+}
